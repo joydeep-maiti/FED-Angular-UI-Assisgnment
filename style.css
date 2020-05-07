@@ -1,0 +1,82 @@
+.myNavClass {
+    background-color: rgb(77, 209, 191);
+    padding: 0 20px;
+}
+
+/* @media (min-width: 900px) {
+    .container{
+        max-width: 970px;
+    }
+} */
+.active  {
+    background-color: rgb(140, 236, 223);
+}
+.myNavTitle {
+    font-size: 25px;
+    font-weight: 400;
+}
+.myNavLink {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.carouselimg{
+    width: 100%;
+    height: 100%;
+}
+/* .container img{
+    width: 100%;
+    height: 100%;
+} */
+.iconImg {
+    width: 30px;
+    color: brown;
+}
+.readMoreBtn {
+    margin-top: 10px;
+}
+.descText {
+ margin-top: 40px;
+}
+.infotxt {
+    margin-left: 20px;
+}
+.footertext {
+    font-size: 12px;
+    color: white;
+}
+footer {
+    padding: 8px 15px;
+    background-color: rgb(77, 209, 191);
+}
+footer img {
+    margin-right: 10px;
+}
+.upkey {
+    display: relative;
+    right: 20px;
+    bottom: 20px;
+}
+@media(min-width:700px){
+    .myNavClass{
+        padding-left: 224px;
+        padding-right: 224px;
+    }
+    .container{
+        max-width: 930px;
+    }
+    .textInfo {
+        width: 30vw;
+        text-align: center;
+        margin: auto;
+    }
+    .myline {
+        width: 60%;
+    }
+    footer {
+        padding: 10px 224px;
+    }
+    footer img {
+        margin-right: 20px;
+    }
+}
